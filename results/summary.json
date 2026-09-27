@@ -1,0 +1,219 @@
+{
+  "population": 7565.0,
+  "demand_cells": 398,
+  "candidates": 361,
+  "links": 143678,
+  "sionna_links_with_any_path": 0.055770542463007555,
+  "coverage_links": {
+    "terrain": 18539,
+    "itm": 7431,
+    "sionna": 4376
+  },
+  "nesting": {
+    "terrain_within_itm": 0.40077674092453747,
+    "terrain_within_sionna": 0.23593505582825394,
+    "itm_within_terrain": 0.9998654286098776,
+    "itm_within_sionna": 0.5651998385143319,
+    "sionna_within_terrain": 0.9995429616087751,
+    "sionna_within_itm": 0.9597806215722121
+  },
+  "e1_goodhart": {
+    "terrain": {
+      "terrain": {
+        "n1": 0.45343688037012553,
+        "n10000": 0.8836814276272305
+      },
+      "itm": {
+        "n1": 0.24378056840713813,
+        "n10000": 0.47391936549900854
+      },
+      "sionna": {
+        "n1": 0.15863846662260406,
+        "n10000": 0.30575677461996037
+      }
+    },
+    "itm": {
+      "terrain": {
+        "n1": 0.45343688037012553,
+        "n10000": 0.8055981493721083
+      },
+      "itm": {
+        "n1": 0.24378056840713813,
+        "n10000": 0.6422670191672173
+      },
+      "sionna": {
+        "n1": 0.15863846662260406,
+        "n10000": 0.44814276272306675
+      }
+    },
+    "sionna": {
+      "terrain": {
+        "n1": 0.45343688037012553,
+        "n10000": 0.7689160608063449
+      },
+      "itm": {
+        "n1": 0.24378056840713813,
+        "n10000": 0.5983939193654988
+      },
+      "sionna": {
+        "n1": 0.15863846662260406,
+        "n10000": 0.5057501652346332
+      }
+    }
+  },
+  "e2_local_search": [
+    {
+      "held_out": "itm",
+      "panel": "referee(terrain+sionna)",
+      "claimed": 0.6453756333994272,
+      "heldout": 0.6997253433208488,
+      "overclaim": -0.0543497099214216,
+      "overclaim_se": 0.0012096803654444,
+      "regret": 0.0438907248292576,
+      "regret_se": 0.0018366495961199,
+      "excess_overclaim_vs_random": 0.027271792612176105
+    },
+    {
+      "held_out": "itm",
+      "panel": "sionna",
+      "claimed": 0.6453961959315561,
+      "heldout": 0.6997253433208488,
+      "overclaim": -0.0543291473892927,
+      "overclaim_se": 0.0012084319663418,
+      "regret": 0.0438907248292576,
+      "regret_se": 0.0018366495961199,
+      "excess_overclaim_vs_random": 0.02729235514430501
+    },
+    {
+      "held_out": "itm",
+      "panel": "terrain",
+      "claimed": 0.9211529705515163,
+      "heldout": 0.5178247778512154,
+      "overclaim": 0.403328192700301,
+      "overclaim_se": 0.0096179761875809,
+      "regret": 0.225791290298891,
+      "regret_se": 0.0074817783101259,
+      "excess_overclaim_vs_random": 0.16049350077109492
+    },
+    {
+      "held_out": "sionna",
+      "panel": "itm",
+      "claimed": 0.7436160681501065,
+      "heldout": 0.5250862891973268,
+      "overclaim": 0.2185297789527795,
+      "overclaim_se": 0.0060216049090882,
+      "regret": 0.1203099067342292,
+      "regret_se": 0.0062721766160067,
+      "excess_overclaim_vs_random": 0.1369082764191818
+    },
+    {
+      "held_out": "sionna",
+      "panel": "referee(terrain+itm)",
+      "claimed": 0.7436160681501065,
+      "heldout": 0.5250862891973268,
+      "overclaim": 0.2185297789527795,
+      "overclaim_se": 0.0060216049090882,
+      "regret": 0.1203099067342292,
+      "regret_se": 0.0062721766160067,
+      "excess_overclaim_vs_random": 0.1369082764191818
+    },
+    {
+      "held_out": "sionna",
+      "panel": "terrain",
+      "claimed": 0.9211529705515163,
+      "heldout": 0.3816112212675332,
+      "overclaim": 0.539541749283983,
+      "overclaim_se": 0.0087901162386487,
+      "regret": 0.2637849746640228,
+      "regret_se": 0.0073151147639681,
+      "excess_overclaim_vs_random": 0.2150855548211792
+    },
+    {
+      "held_out": "terrain",
+      "panel": "itm",
+      "claimed": 0.7436160681501065,
+      "heldout": 0.8569376514650803,
+      "overclaim": -0.1133215833149738,
+      "overclaim_se": 0.0020629386352923,
+      "regret": 0.064215319086436,
+      "regret_se": 0.0035364638806924,
+      "excess_overclaim_vs_random": 0.1295131086142323
+    },
+    {
+      "held_out": "terrain",
+      "panel": "referee(itm+sionna)",
+      "claimed": 0.6382742160534626,
+      "heldout": 0.8484027318792684,
+      "overclaim": -0.2101285158258058,
+      "overclaim_se": 0.0048849226173821,
+      "regret": 0.0727502386722479,
+      "regret_se": 0.0017035578606203,
+      "excess_overclaim_vs_random": 0.11742674597929068
+    },
+    {
+      "held_out": "terrain",
+      "panel": "sionna",
+      "claimed": 0.6453961959315561,
+      "heldout": 0.8500389219358153,
+      "overclaim": -0.2046427260042593,
+      "overclaim_se": 0.0047924218768188,
+      "regret": 0.0711140486157009,
+      "regret_se": 0.0020912293539719,
+      "excess_overclaim_vs_random": 0.11981346845854451
+    }
+  ],
+  "reality_check": {
+    "tiles": 41,
+    "tests": 147,
+    "rows": [
+      {
+        "judge": "terrain",
+        "threshold_dbm": -105,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 1.0,
+        "tests_recalled": 1.0
+      },
+      {
+        "judge": "terrain",
+        "threshold_dbm": -115,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 1.0,
+        "tests_recalled": 1.0
+      },
+      {
+        "judge": "itm",
+        "threshold_dbm": -105,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 1.0,
+        "tests_recalled": 1.0
+      },
+      {
+        "judge": "itm",
+        "threshold_dbm": -115,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 1.0,
+        "tests_recalled": 1.0
+      },
+      {
+        "judge": "sionna",
+        "threshold_dbm": -105,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 0.8780487804878049,
+        "tests_recalled": 0.9251700680272108
+      },
+      {
+        "judge": "sionna",
+        "threshold_dbm": -115,
+        "tiles": 41,
+        "sites": 27,
+        "recall": 0.8780487804878049,
+        "tests_recalled": 0.9251700680272108
+      }
+    ]
+  }
+}

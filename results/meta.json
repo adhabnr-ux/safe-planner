@@ -1,0 +1,17 @@
+{
+  "judges": [
+    "terrain",
+    "itm",
+    "sionna"
+  ],
+  "k_values": [
+    3,
+    5,
+    8
+  ],
+  "seeds": 30,
+  "pool_fraction": 0.7,
+  "n_candidates": 361,
+  "n_demand": 398,
+  "population": 7565.0
+}

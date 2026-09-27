@@ -1,0 +1,15 @@
+{
+  "name": "blackmesa",
+  "bbox": [
+    36.05,
+    -110.45,
+    36.55,
+    -109.8
+  ],
+  "candidate_spacing_km": 3.0,
+  "freq_mhz": 750.0,
+  "tx_height_m": 30.0,
+  "rx_height_m": 1.5,
+  "eirp_re_dbm": 33.0,
+  "threshold_dbm": -105.0
+}
