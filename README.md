@@ -132,6 +132,12 @@ experiments can be rerun without Sionna.
 - One 55 × 58 km area and one link budget. Judges share the same DEM, so terrain-data errors are common to all.
 - No judge is ground truth. Ookla tests catch only one error direction and cover 41 tiles.
 - Planners are classical optimizers. An LLM-agent planner (and whether it probes for weaknesses) is future work.
+- **Sionna's ray count (checked Sept 29).** The Sionna judge used 300,000 rays per site. A later study showed that
+  Sionna RT finds more terrain-shadowed paths with more rays, so 6 random candidate sites were re-traced at 10 million
+  rays ([`sp/sionna_raycheck.py`](sp/sionna_raycheck.py), [`results/sionna_raycheck.json`](results/sionna_raycheck.json)).
+  Links with any path rose from 149 to 225 of 2,388. Links above the −105 dBm coverage threshold stayed at exactly 64, and the
+  population they cover stayed at 1,427. The extra paths are all far too weak to count, so the coverage numbers above do not
+  depend on the ray count. Where both runs find a path, the gains differ by a median of 2.2 dB.
 - NVIDIA AODT would be a stronger fourth judge but needs data-centre GPUs (48 GB+), which this project did not have.
 
 ## Data and licences

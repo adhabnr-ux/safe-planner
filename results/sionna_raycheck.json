@@ -1,0 +1,21 @@
+{
+ "sites": [
+  "c014",
+  "c096",
+  "c110",
+  "c182",
+  "c227",
+  "c302"
+ ],
+ "samples_old": 300000,
+ "samples_new": 10000000,
+ "seconds": 1325,
+ "links_with_path_old": 149,
+ "links_with_path_new": 225,
+ "links": 2388,
+ "covered_links_old": 64,
+ "covered_links_new": 64,
+ "covered_pop_old": 1427.0,
+ "covered_pop_new": 1427.0,
+ "median_abs_change_db_where_both_found": 2.15216064453125
+}
